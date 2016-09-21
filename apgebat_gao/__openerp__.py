@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'AP Gestion des appels d\'offres',
-    'version': '1.0.0',
+    'version': '1.0.2',
     'category': 'Liste',
     'sequence': 3,
     'author': 'Africa performances',
@@ -18,6 +18,8 @@ and allows the manager to monitor the dedicated team throughout this process.
     'depends': ["base","account","sale", "document", "stock", "project"],
     'data': [
         'apgebat_gao.xml',
+        'import.xml',
+        'install/install.xml',
         'security/ir.model.access.csv',
     ],
     
