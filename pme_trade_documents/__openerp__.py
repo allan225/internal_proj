@@ -16,10 +16,10 @@
    'depends' : ['base','sale','account','stock','purchase'], # liste des dépendances conditionnant l'ordre de démarrage
    'data' : [ # les fichiers de données à charger lors de l'installation du module
            'report_invoice.xml',
-           'report_purchaseorder.xml'
-           'report_purchasequotation.xml'
-           'report_saleorder.xml'
-           'report_stockpicking.xml'
+           'report_purchaseorder.xml',
+           'report_purchasequotation.xml',
+           'report_saleorder.xml',
+           'report_stockpicking.xml',
                   ],
     'installable': True,
     'application': False,
