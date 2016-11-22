@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report 
+            id="noheader_report_sale_order"
+            string="Papier sans entete"
+            model="sale.order" 
+            report_type="qweb-pdf"
+            file="pme.saleorder_no_header" 
+            name="pme.saleorder_no_header" 
+        />
+        <report 
+            string="Bon de commande sans en-tête" 
+            id="noheader_action_report_purchase_order" 
+            model="purchase.order" 
+            report_type="qweb-pdf"
+            name="pme.noheader_report_purchaseorder" 
+            file="pme.purchaseorder_no_header" 
+        />
+        <report 
+            string="Demande de devis sans en-tête" 
+            id="noheader_report_purchase_quotation" 
+            model="purchase.order" 
+            report_type="qweb-pdf"
+            name="pme.noheader_report_purchasequotation" 
+            file="pme.purchasequotation_no_header"
+        />
+        <report 
+            string="Picking" 
+            id="noheader_action_report_picking" 
+            model="stock.picking" 
+            report_type="qweb-pdf"
+            name="pme.noheader_report_picking" 
+            file="pme.stockpicking_no_header" 
+        />
+
+    </data>
+</openerp>
