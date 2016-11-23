@@ -8,10 +8,9 @@ class sale_order(osv.osv):
 class purchase_order(osv.osv):
 	_inherit="purchase.order"
 
-class purchase_order(osv.osv):
-	_inherit="purchase.order"
-
-
 class stock_picking(osv.osv):
 	_inherit="stock.picking"
+
+class account_invoice(osv.osv):
+	_inherit="account.invoice"
 	

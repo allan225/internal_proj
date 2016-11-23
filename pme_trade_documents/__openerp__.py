@@ -24,6 +24,8 @@
            'purchasequotation_no_header.xml',
            'saleorder_no_header.xml',
            'stockpicking_no_header.xml',
+           'report_invoice.xml',
+           
                   ],
     'installable': True,
     'application': False,

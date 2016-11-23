@@ -33,6 +33,16 @@
             name="pme.noheader_report_picking" 
             file="pme.stockpicking_no_header" 
         />
+        <report 
+            id="account_invoices"
+            model="account.invoice"
+            string="Facture sans entête"
+            report_type="qweb-pdf"
+            name="pme.report_invoice"
+            file="pme.report_invoice"
+            attachment_use="True"
+            attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
+        />
 
     </data>
 </openerp>
