@@ -4,6 +4,9 @@
 <template id="noheader_report_purchaseorder_document">
     
         <div class="page">
+            <div class="row" style="width: 18%; padding:5%">
+                 
+            </div>
             <div class="oe_structure"/>
             <div class="row">
                 <div class="col-xs-6">

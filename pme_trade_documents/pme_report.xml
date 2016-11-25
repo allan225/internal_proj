@@ -3,11 +3,19 @@
     <data>
         <report 
             id="noheader_report_sale_order"
-            string="Papier sans entete"
+            string="Dévis/commande sans entete"
             model="sale.order" 
             report_type="qweb-pdf"
             file="pme.saleorder_no_header" 
             name="pme.saleorder_no_header" 
+        />
+        <report 
+            id="sale.report_sale_order"
+            string="Dévis/Commande"
+            model="sale.order" 
+            report_type="qweb-pdf"
+            file="sale.report_saleorder" 
+            name="sale.report_saleorder" 
         />
         <report 
             string="Bon de commande sans en-tête" 
@@ -18,7 +26,7 @@
             file="pme.purchaseorder_no_header" 
         />
         <report 
-            string="Demande de devis sans en-tête" 
+            string="Demande de prix sans en-tête" 
             id="noheader_report_purchase_quotation" 
             model="purchase.order" 
             report_type="qweb-pdf"
@@ -26,7 +34,7 @@
             file="pme.purchasequotation_no_header"
         />
         <report 
-            string="Picking" 
+            string="Opération de manutention sans entête" 
             id="noheader_action_report_picking" 
             model="stock.picking" 
             report_type="qweb-pdf"
@@ -34,14 +42,50 @@
             file="pme.stockpicking_no_header" 
         />
         <report 
-            id="account_invoices"
+            string="Picking" 
+            id="stock.action_report_picking" 
+            model="stock.picking" 
+            report_type="qweb-pdf"
+            name="stock.report_picking" 
+            file="stock.report_picking" 
+        />
+               <report 
+            id="account_invoices_no_header"
             model="account.invoice"
             string="Facture sans entête"
             report_type="qweb-pdf"
-            name="pme.report_invoice"
-            file="pme.report_invoice"
+            name="pme.invoice_no_header"
+            file="pme.report_invoice_no_header"
             attachment_use="True"
             attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
+        />
+        <report 
+            id="account.account_invoices"
+            model="account.invoice"
+            string="Facture"
+            report_type="qweb-pdf"
+            name="account.report_invoice"
+            file="account.report_invoice"
+            attachment_use="True"
+            attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
+        />
+
+        <report 
+            string="Bon de commande" 
+            id="purchase.action_report_purchase_order" 
+            model="purchase.order" 
+            report_type="qweb-pdf"
+            name="purchase.report_purchaseorder" 
+            file="purchase.report_purchaseorder" 
+        />
+
+        <report 
+            string="Demande de prix" 
+            id="purchase.report_purchase_quotation" 
+            model="purchase.order" 
+            report_type="qweb-pdf"
+            name="purchase.report_purchasequotation" 
+            file="purchase.report_purchasequotation"
         />
 
     </data>

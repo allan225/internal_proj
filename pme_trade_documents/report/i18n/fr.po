@@ -1,0 +1,423 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* pme
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20160327\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-25 17:50+0000\n"
+"PO-Revision-Date: 2016-11-25 17:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "&bull;"
+msgstr "&bull;"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Amount"
+msgstr "Montant"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Barcode"
+msgstr "Code-barres"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Base"
+msgstr "Base de calcul"
+
+#. module: pme
+#: model:ir.actions.report.xml,name:pme.noheader_action_report_purchase_order
+msgid "Bon de commande sans en-tête"
+msgstr "Bon de commande sans en-tête"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Cancelled Invoice"
+msgstr "Facture annulée"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Comment:"
+msgstr "Note:"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Commitment Date"
+msgstr "Date d'engagement"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Company Register:"
+msgstr "Company Register:"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Customer Address:"
+msgstr "Adresse du client :"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Customer Code:"
+msgstr "Référence client:"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Date Req."
+msgstr "Date prévue"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Delivery Address:"
+msgstr "Adresse de livraison :"
+
+#. module: pme
+#: model:ir.actions.report.xml,name:pme.noheader_report_purchase_quotation
+msgid "Demande de prix sans en-tête"
+msgstr "Demande de prix sans en-tête"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_purchasequotation_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Description"
+msgstr "Description"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Description:"
+msgstr "Description:"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Destination"
+msgstr "Destination"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Disc.(%)"
+msgstr "Rem.(%)"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Discount (%)"
+msgstr "Remise (%)"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Draft Invoice"
+msgstr "Facture Brouillon"
+
+#. module: pme
+#: model:ir.actions.report.xml,name:pme.noheader_report_sale_order
+msgid "Dévis/commande sans entete"
+msgstr "Dévis/commande sans entete"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Email:"
+msgstr "Courriel :"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchasequotation_document
+msgid "Expected Date"
+msgstr "Date prévue"
+
+#. module: pme
+#: model:ir.actions.report.xml,name:pme.account_invoices_no_header
+msgid "Facture sans entête"
+msgstr "Facture sans entête"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Fax:"
+msgstr "Fax :"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Fiscal Position Remark:"
+msgstr "Remarque de Position Fiscale:"
+
+#. module: pme
+#: model:ir.model,name:pme.model_account_invoice
+#: view:website:pme.noheader_report_invoice_document
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Invoice Date:"
+msgstr "Date de facture:"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Invoice address:"
+msgstr "Adresse de facturation :"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Invoice and shipping address:"
+msgstr "Adresse de facturation et livraison"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Net Price"
+msgstr "Prix net"
+
+#. module: pme
+#: model:ir.actions.report.xml,name:pme.noheader_action_report_picking
+msgid "Opération de manutention sans entête"
+msgstr "Opération de manutention sans entête"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Order (Origin)"
+msgstr "Commande (origine)"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Order Date:"
+msgstr "Date de la commande"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Order N°"
+msgstr "N° de commande"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Our Order Reference:"
+msgstr "Notre référence de commande :"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "PRO-FORMA"
+msgstr "PRO-FORMA"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Page:"
+msgstr "Page :"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Payment Term:"
+msgstr "Conditions de règlement:"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Phone:"
+msgstr "Téléphone :"
+
+#. module: pme
+#: model:ir.model,name:pme.model_stock_picking
+msgid "Picking List"
+msgstr "Bon de livraison"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Price"
+msgstr "Prix"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Product"
+msgstr "Article"
+
+#. module: pme
+#: model:ir.model,name:pme.model_purchase_order
+msgid "Purchase Order"
+msgstr "Bon de commande"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Purchase Order Confirmation N°"
+msgstr "Confirmation de commande n°"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_purchasequotation_document
+msgid "Qty"
+msgstr "Qté"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+#: view:website:pme.noheader_report_picking
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Quantity"
+msgstr "Quantité"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Quotation Date:"
+msgstr "Date du devis:"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Quotation N°"
+msgstr "Devis N°"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Reference:"
+msgstr "Référence:"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Refund"
+msgstr "Avoir"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchasequotation_document
+msgid "Regards,"
+msgstr "Bien à vous,"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchasequotation_document
+msgid "Request for Quotation"
+msgstr "Demande de prix"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Request for Quotation N°"
+msgstr "Demande de prix N°"
+
+#. module: pme
+#: model:ir.model,name:pme.model_sale_order
+msgid "Sales Order"
+msgstr "Commande de ventes"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Scheduled Date"
+msgstr "Date prévue"
+
+#. module: pme
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Settlement Condition:"
+msgstr "Settlement Condition:"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_purchasequotation_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Shipping address:"
+msgstr "Adresse de livraison :"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Source"
+msgstr "Origine"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Source:"
+msgstr "Source :"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "State"
+msgstr "État"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Street:"
+msgstr "Street:"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Supplier Address:"
+msgstr "Adresse fournisseur :"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Supplier Invoice"
+msgstr "Facture fournisseur"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Supplier Refund"
+msgstr "Avoir fournisseur"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "TIN:"
+msgstr "Numéro TVA :"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+msgid "Tax"
+msgstr "Taxes"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Taxes"
+msgstr "Taxes"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Total"
+msgstr "Total"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Total Without Taxes"
+msgstr "Total HT"
+
+#. module: pme
+#: view:website:pme.noheader_report_invoice_document
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+#: view:website:pme.noheader_report_purchaseorder_document
+#: view:website:pme.noheader_report_purchasequotation_document
+#: view:website:pme.noheader_report_saleorder_document
+msgid "VAT:"
+msgstr "TVA :"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Validated By:"
+msgstr "Validé par:"
+
+#. module: pme
+#: view:website:pme.noheader_report_picking
+msgid "Warehouse Address:"
+msgstr "Adresse de l'entrepôt :"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Website:"
+msgstr "Site Web :"
+
+#. module: pme
+#: view:website:pme.noheader_report_purchaseorder_document
+msgid "Your Order Reference"
+msgstr "Votre Référence Commande"
+
+#. module: pme
+#: view:website:pme.pme_external_layout_footer
+msgid "Zip:"
+msgstr "Zip:"
+
