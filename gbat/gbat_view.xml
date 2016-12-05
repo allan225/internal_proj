@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<record id="heritage_purchase_order_form" model="ir.ui.view">
+            <field name="name">purchase.order.form</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+            	<field name="partner_ref" position="after">
+            		<field name="payment_mode" widget="selection"/>
+            	</field>
+                <field name="partner_ref" position="after">
+                    <field name="order_responsible_id"/>
+                </field>
+                <field name="date_order" position="replace">
+                    <field name="date_order2"/>                    
+                </field>
+                <field name="picking_type_id" position="replace">
+                    <field name="warehoure_name"/>                    
+                </field>
+                <field name="warehoure_name" position="after">
+                    <field name="code_projet" context="{'models': 'achat'}"/>
+                </field>
+            	
+                  <field name="product_id" on_change="onchange_product_id(parent.pricelist_id,product_id,0,False,parent.partner_id, parent.date_order,parent.fiscal_position,date_planned,False,False,parent.state,context)" position="before">
+                    <field name="ref_product"/>
+                  </field>
+
+
+            </field>
+        </record>
+
+
+
+        <record id="purchase.purchase_rfq" model="ir.actions.act_window">
+            <field name="name">Requests for Quotation</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">purchase.order</field>
+            <field name="context">{'models': 'achat'}</field>
+            <field name="domain">[('state','in',('draft','sent','bid','cancel', 'confirmed'))]</field>
+            <field name="view_mode">tree,form,graph,calendar</field>
+            <field name="search_view_id" ref="purchase.view_purchase_order_filter"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a request for quotation.
+              </p><p>
+                The quotation contains the history of the discussion/negotiation
+                you had with your supplier. Once confirmed, a request for
+                quotation is converted into a purchase order.
+              </p><p>
+                Most propositions of purchase orders are created automatically
+                by Odoo based on inventory needs.
+              </p>
+            </field>
+        </record>
+
+
+
+
+    </data>
+</openerp>

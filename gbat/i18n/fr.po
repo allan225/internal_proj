@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0-20160327\n"
+"Project-Id-Version: Odoo Server 8.0-20161107\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-25 17:43+0000\n"
-"PO-Revision-Date: 2016-11-25 17:43+0000\n"
+"POT-Creation-Date: 2016-12-05 19:26+0000\n"
+"PO-Revision-Date: 2016-12-05 19:26+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,19 +21,38 @@ msgid "Amount"
 msgstr "Montant"
 
 #. module: gbat
+#: model:ir.model,name:gbat.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Compte analytique"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_invoice_document
+#: view:website:gbat.noheader_report_picking
+#: view:website:gbat.noheader_report_purchaseorder_document
+#: view:website:gbat.noheader_report_purchasequotation_document
+#: view:website:gbat.noheader_report_saleorder_document
+msgid "Approuvé par DG:"
+msgstr "Approuvé par DG:"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "BC N°:"
+msgstr "BC N°:"
+
+#. module: gbat
 #: view:website:gbat.gbat_external_layout_footer
 msgid "BGFI Bank: 02010047401"
 msgstr "BGFI Bank: 02010047401"
 
 #. module: gbat
-#: view:website:gbat.noheader_report_picking
-msgid "Barcode"
-msgstr "Code-barres"
-
-#. module: gbat
 #: view:website:gbat.noheader_report_invoice_document
 msgid "Base"
 msgstr "Base de calcul"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Bon de commande"
+msgstr "Bon de commande"
 
 #. module: gbat
 #: model:ir.actions.report.xml,name:gbat.noheader_action_report_purchase_order
@@ -46,6 +65,28 @@ msgid "Cancelled Invoice"
 msgstr "Facture annulée"
 
 #. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Cel:"
+msgstr "Cel:"
+
+#. module: gbat
+#: selection:purchase.order,payment_mode:0
+msgid "Chèque"
+msgstr "Chèque"
+
+#. module: gbat
+#: field:purchase.order,code_projet:0
+msgid "Code Projet"
+msgstr "Code Projet"
+
+#. module: gbat
+#: field:account.invoice,code_projet2:0
+#: field:sale.order,code_projet2:0
+#: field:stock.picking,code_projet2:0
+msgid "Code projet2"
+msgstr "Code projet2"
+
+#. module: gbat
 #: view:website:gbat.noheader_report_invoice_document
 msgid "Comment:"
 msgstr "Note:"
@@ -54,6 +95,13 @@ msgstr "Note:"
 #: view:website:gbat.noheader_report_picking
 msgid "Commitment Date"
 msgstr "Date d'engagement"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_invoice_document
+#: view:website:gbat.noheader_report_purchaseorder_document
+#: view:website:gbat.noheader_report_purchasequotation_document
+msgid "Comptabilité:"
+msgstr "Comptabilité:"
 
 #. module: gbat
 #: view:website:gbat.gbat_external_layout_footer
@@ -72,8 +120,23 @@ msgstr "Référence client:"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_purchaseorder_document
-msgid "Date Req."
-msgstr "Date prévue"
+msgid "Date :"
+msgstr "Date :"
+
+#. module: gbat
+#: field:purchase.order,date_order2:0
+msgid "Date de commande"
+msgstr "Date de commande"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Date:"
+msgstr "Date :"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Delai de Livraison:"
+msgstr "Delai de Livraison:"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_picking
@@ -87,10 +150,8 @@ msgstr "Demande de prix sans en-tête"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_invoice_document
-#: view:website:gbat.noheader_report_purchaseorder_document
 #: view:website:gbat.noheader_report_purchasequotation_document
 #: view:website:gbat.noheader_report_saleorder_document
-#: view:website:gbat.report_purchasequotation_document
 msgid "Description"
 msgstr "Description"
 
@@ -120,6 +181,11 @@ msgid "Draft Invoice"
 msgstr "Facture Brouillon"
 
 #. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Désignation"
+msgstr "Désignation"
+
+#. module: gbat
 #: model:ir.actions.report.xml,name:gbat.noheader_report_sale_order
 msgid "Dévis/commande sans entete"
 msgstr "Dévis/commande sans entete"
@@ -130,8 +196,12 @@ msgid "Email:"
 msgstr "Courriel :"
 
 #. module: gbat
+#: selection:purchase.order,payment_mode:0
+msgid "Especes"
+msgstr "Especes"
+
+#. module: gbat
 #: view:website:gbat.noheader_report_purchasequotation_document
-#: view:website:gbat.report_purchasequotation_document
 msgid "Expected Date"
 msgstr "Date prévue"
 
@@ -142,6 +212,7 @@ msgstr "Facture sans entête"
 
 #. module: gbat
 #: view:website:gbat.gbat_external_layout_footer
+#: view:website:gbat.noheader_report_purchaseorder_document
 msgid "Fax:"
 msgstr "Fax :"
 
@@ -149,6 +220,11 @@ msgstr "Fax :"
 #: view:website:gbat.noheader_report_invoice_document
 msgid "Fiscal Position Remark:"
 msgstr "Remarque de Position Fiscale:"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Fournisseur:"
+msgstr "Fournisseur:"
 
 #. module: gbat
 #: model:ir.model,name:gbat.model_account_invoice
@@ -170,6 +246,36 @@ msgstr "Adresse de facturation :"
 #: view:website:gbat.noheader_report_saleorder_document
 msgid "Invoice and shipping address:"
 msgstr "Adresse de facturation et livraison"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Lieu de livraison:"
+msgstr "Lieu de livraison:"
+
+#. module: gbat
+#: field:purchase.order,warehoure_name:0
+msgid "Livrer à"
+msgstr "Livrer à"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Modalité de payment:"
+msgstr "Modalité de payment:"
+
+#. module: gbat
+#: field:purchase.order,payment_mode:0
+msgid "Mode de Paiement"
+msgstr "Mode de Paiement"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Mode de paiement:"
+msgstr "Mode de paiement:"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Mode de payment:"
+msgstr "Mode de payment:"
 
 #. module: gbat
 #: view:website:gbat.gbat_external_layout_footer
@@ -197,19 +303,9 @@ msgid "Order (Origin)"
 msgstr "Commande (origine)"
 
 #. module: gbat
-#: view:website:gbat.noheader_report_purchaseorder_document
-msgid "Order Date:"
-msgstr "Date de la commande"
-
-#. module: gbat
 #: view:website:gbat.noheader_report_saleorder_document
 msgid "Order N°"
 msgstr "N° de commande"
-
-#. module: gbat
-#: view:website:gbat.noheader_report_purchaseorder_document
-msgid "Our Order Reference:"
-msgstr "Notre référence de commande :"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_invoice_document
@@ -230,7 +326,7 @@ msgstr "Conditions de règlement:"
 #. module: gbat
 #: model:ir.model,name:gbat.model_stock_picking
 msgid "Picking List"
-msgstr "Opération de manutention"
+msgstr "Bon de livraison"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_saleorder_document
@@ -243,19 +339,23 @@ msgid "Product"
 msgstr "Article"
 
 #. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Proforma :"
+msgstr "Proforma :"
+
+#. module: gbat
 #: model:ir.model,name:gbat.model_purchase_order
 msgid "Purchase Order"
 msgstr "Bon de commande"
 
 #. module: gbat
-#: view:website:gbat.noheader_report_purchaseorder_document
-msgid "Purchase Order Confirmation N°"
-msgstr "Confirmation de commande n°"
+#: model:ir.model,name:gbat.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Ligne de commande d'achat"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_purchaseorder_document
 #: view:website:gbat.noheader_report_purchasequotation_document
-#: view:website:gbat.report_purchasequotation_document
 msgid "Qty"
 msgstr "Qté"
 
@@ -293,13 +393,11 @@ msgstr "Avoir"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_purchasequotation_document
-#: view:website:gbat.report_purchasequotation_document
 msgid "Regards,"
 msgstr "Bien à vous,"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_purchasequotation_document
-#: view:website:gbat.report_purchasequotation_document
 msgid "Request for Quotation"
 msgstr "Demande de prix"
 
@@ -307,6 +405,21 @@ msgstr "Demande de prix"
 #: view:website:gbat.noheader_report_purchaseorder_document
 msgid "Request for Quotation N°"
 msgstr "Demande de prix N°"
+
+#. module: gbat
+#: field:purchase.order,order_responsible_id:0
+msgid "Responsable de la reception"
+msgstr "Responsable de la reception"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Responsable reception de la commande:"
+msgstr "Responsable reception de la commande:"
+
+#. module: gbat
+#: field:purchase.order.line,ref_product:0
+msgid "Réf"
+msgstr "Réf"
 
 #. module: gbat
 #: view:website:gbat.gbat_external_layout_footer
@@ -321,7 +434,7 @@ msgstr "S.A. au capital de 150 000 000 F CFA"
 #. module: gbat
 #: model:ir.model,name:gbat.model_sale_order
 msgid "Sales Order"
-msgstr "Bon de commande"
+msgstr "Commande de ventes"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_picking
@@ -334,15 +447,19 @@ msgid "Settlement Condition:"
 msgstr "Settlement Condition:"
 
 #. module: gbat
-#: view:website:gbat.noheader_report_purchaseorder_document
 #: view:website:gbat.noheader_report_purchasequotation_document
 #: view:website:gbat.noheader_report_saleorder_document
-#: view:website:gbat.report_purchasequotation_document
 msgid "Shipping address:"
 msgstr "Adresse de livraison :"
 
 #. module: gbat
+#: view:website:gbat.noheader_report_purchaseorder_document
+msgid "Siège 2:"
+msgstr "Siège 2:"
+
+#. module: gbat
 #: view:website:gbat.gbat_external_layout_footer
+#: view:website:gbat.noheader_report_purchaseorder_document
 msgid "Siège:"
 msgstr "Siège:"
 
@@ -415,28 +532,54 @@ msgstr "Total HT"
 #. module: gbat
 #: view:website:gbat.noheader_report_invoice_document
 #: view:website:gbat.noheader_report_purchaseorder_document
-#: view:website:gbat.noheader_report_saleorder_document
 msgid "Unit Price"
 msgstr "Prix unitaire"
 
 #. module: gbat
-#: view:website:gbat.noheader_report_picking
 #: view:website:gbat.noheader_report_purchaseorder_document
-#: view:website:gbat.noheader_report_purchasequotation_document
-#: view:website:gbat.noheader_report_saleorder_document
-#: view:website:gbat.report_purchasequotation_document
-msgid "VAT:"
-msgstr "TVA :"
+msgid "Unité"
+msgstr "Unité"
 
 #. module: gbat
-#: view:website:gbat.noheader_report_purchaseorder_document
-msgid "Validated By:"
-msgstr "Validé par:"
+#: view:website:gbat.noheader_report_picking
+#: view:website:gbat.noheader_report_purchasequotation_document
+#: view:website:gbat.noheader_report_saleorder_document
+msgid "VAT:"
+msgstr "TVA :"
 
 #. module: gbat
 #: view:website:gbat.gbat_external_layout_footer
 msgid "Versus Bank: 15008360007"
 msgstr "Versus Bank: 15008360007"
+
+#. module: gbat
+#: selection:purchase.order,payment_mode:0
+msgid "Virement"
+msgstr "Virement"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_picking
+#: view:website:gbat.noheader_report_saleorder_document
+msgid "Vérifié par Comptabilité:"
+msgstr "Vérifié par Comptabilité:"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_invoice_document
+#: view:website:gbat.noheader_report_picking
+#: view:website:gbat.noheader_report_purchaseorder_document
+#: view:website:gbat.noheader_report_purchasequotation_document
+#: view:website:gbat.noheader_report_saleorder_document
+msgid "Vérifié par demandeur:"
+msgstr "Vérifié par demandeur:"
+
+#. module: gbat
+#: view:website:gbat.noheader_report_invoice_document
+#: view:website:gbat.noheader_report_picking
+#: view:website:gbat.noheader_report_purchaseorder_document
+#: view:website:gbat.noheader_report_purchasequotation_document
+#: view:website:gbat.noheader_report_saleorder_document
+msgid "Vérifié par procurement:"
+msgstr "Vérifié par procurement:"
 
 #. module: gbat
 #: view:website:gbat.noheader_report_picking
@@ -447,9 +590,4 @@ msgstr "Adresse de l'entrepôt :"
 #: view:website:gbat.gbat_external_layout_footer
 msgid "Web:"
 msgstr "Web:"
-
-#. module: gbat
-#: view:website:gbat.noheader_report_purchaseorder_document
-msgid "Your Order Reference"
-msgstr "Votre Référence Commande"
 
